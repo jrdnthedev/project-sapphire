@@ -13,7 +13,8 @@ import { CardComponent } from './components/card/card.component';
   ],
   exports:[
     TableComponent,
-    CardComponent
+    CardComponent,
+    CommonModule
   ]
 })
 export class SharedModule { }
