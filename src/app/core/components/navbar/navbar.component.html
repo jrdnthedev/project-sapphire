@@ -1,12 +1,21 @@
-<header>
-    <nav class="nav navbar-expanded navbar-light bg-light">
-        <a class="navbar-brand">{{pageTitle}}</a>
-        <ul class="nav nav-pills">
-            <li><a routerLink="/welcome" class="nav-link">Welcome</a></li>
-            <li><a routerLink="/leaderboard" class="nav-link">Leaderboard</a></li>
-            <li><a routerLink="/category" class="nav-link">Category</a></li>
-            <li><a routerLink="/input" class="nav-link">Input</a></li>
-            <li><a routerLink="/rules" class="nav-link">Rules</a></li>
+<header class="p-3 text-bg-dark">
+    <nav class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <li><a routerLink="/welcome" class="nav-link px-2 text-white">Welcome</a></li>
+            <li><a routerLink="/leaderboard" class="nav-link px-2 text-white">Leaderboard</a></li>
+            <li><a routerLink="/category" class="nav-link px-2 text-white">Category</a></li>
+            <li><a routerLink="/input" class="nav-link px-2 text-white">Input</a></li>
+            <li><a routerLink="/rules" class="nav-link px-2 text-white">Rules</a></li>
         </ul>
+        <form  class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+            <input type="search"class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
+        </form>
+        <div class="text-end">
+            <button type="button" class="btn btn-outline-light me-2">Login</button>
+            <button type="button" class="btn btn-warning">Sign-up</button>
+        </div>
     </nav>
 </header>
