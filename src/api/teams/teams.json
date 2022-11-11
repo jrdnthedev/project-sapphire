@@ -3,42 +3,48 @@
         "id":1,
         "name":"Dragons",
         "bio":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat.",
-        "image":"",
+        "image":"assets/team-img/dragons.jpg",
+        "imagealttext":"dragons image",
         "rating":5
     },
     {
         "id":2,
         "name":"Wreckers",
         "bio":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat.",
-        "image":"",
+        "image":"assets/team-img/wreckers.jpg",
+        "imagealttext":"wreckers image",
         "rating":4.9
     },
     {
         "id":3,
         "name":"Steamers",
         "bio":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat.",
-        "image":"",
+        "image":"assets/team-img/steamers.jpg",
+        "imagealttext":"steamers image",
         "rating":4.3
     },
     {
         "id":4,
         "name":"Young Guns",
         "bio":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat.",
-        "image":"",
+        "image":"assets/team-img/young-guns.jpg",
+        "imagealttext":"young guns image",
         "rating":2
     },
     {
         "id":5,
         "name":"Gigi #Girldad",
         "bio":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat.",
-        "image":"",
+        "image":"assets/team-img/gigi.jpg",
+        "imagealttext":"gigi image",
         "rating":5
     },
     {
         "id":6,
         "name":"Mamba",
         "bio":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat.",
-        "image":"",
+        "image":"assets/team-img/mamba.jpg",
+        "imagealttext":"mamba image",
         "rating":3.6
     }
 ]

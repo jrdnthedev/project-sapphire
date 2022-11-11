@@ -4,4 +4,5 @@ export interface ITeam {
     bio: string;
     image: string;
     rating: number;
+    imagealttext: string;
 }

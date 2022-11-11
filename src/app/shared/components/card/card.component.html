@@ -1,12 +1,12 @@
 <div class="col">
     <div class="card h-100">
-        <img [src]="data.image" class="card-img-top" alt="...">
+        <div class="card-image" [style.background-image]="'url('+data.image+')'"></div>
         <div class="card-body">
-        <h5 class="card-title">{{data.name}}</h5>
-        <div>
-            <sa-star [rating]="data.rating"></sa-star>
-        </div>
-        <p class="card-text">{{data.bio}}</p>
+            <h5 class="card-title">{{data.name}}</h5>
+            <div>
+                <sa-star [rating]="data.rating"></sa-star>
+            </div>
+            <p class="card-text">{{data.bio}}</p>
         </div>
     </div>
 </div>
