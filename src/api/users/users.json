@@ -1,0 +1,36 @@
+[
+    {
+        "id":"1",
+        "firstname":"Riley",
+        "lastname":"H",
+        "teamname":"Dragons",
+        "city":"Toronto",
+        "image":"",
+        "level":4.6,
+        "bio":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat.",
+        "scores":[
+           104,
+           110,
+           100,
+           105,
+           138
+        ]
+     },
+     {
+        "id":"2",
+        "firstname":"Hamza",
+        "lastname":"F",
+        "teamname":"Young Guns",
+        "city":"Vancouver",
+        "image":"",
+        "level":4,
+        "bio":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat.",
+        "scores":[
+           104,
+           110,
+           100,
+           105,
+           138
+        ]
+     }
+]
