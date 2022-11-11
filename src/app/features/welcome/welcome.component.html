@@ -1,1 +1,6 @@
-<sa-table [tableTitle]="'Welcome Page Table'"></sa-table>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    <ng-container *ngFor="let team of teams">
+        <sa-card [data]="team"></sa-card>
+    </ng-container>
+</div>
+

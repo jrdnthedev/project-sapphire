@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { ITeam } from 'src/app/features/team/interface/team';
 
 @Component({
   selector: 'sa-card',
@@ -6,10 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./card.component.scss']
 })
 export class CardComponent implements OnInit {
+  @Input() data: any;
 
   constructor() { }
 
   ngOnInit(): void {
+    console.log(this.data)
   }
 
 }
