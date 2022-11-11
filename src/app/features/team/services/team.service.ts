@@ -1,6 +1,6 @@
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { catchError, Observable, tap, throwError } from 'rxjs';
+import { catchError, map, Observable, tap, throwError } from 'rxjs';
 import { ITeam } from '../interface/team';
 
 @Injectable({
@@ -16,6 +16,14 @@ export class TeamService {
     return this._http.get<ITeam[]>(this._teamsUrl).pipe(
       tap(data => console.log('all', JSON.stringify(data))),
       catchError(this.handleError)
+    );
+  } 
+
+  //get team by id using teams list returned from getTeams call
+  getTeam(id: number): Observable<ITeam | undefined> {
+    return this.getTeams().pipe(
+      //use map to turn teams into array then use find on that array to match passed in id with one in the list if it exists
+      map((team:ITeam[]) => team.find(t => t.id === id))
     );
   }
 

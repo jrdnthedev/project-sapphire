@@ -7,3 +7,11 @@
 .card {
     overflow: hidden;
 }
+
+a {
+    color: unset;
+    text-decoration: unset;
+    &:hover {
+        color: unset;
+    }
+}

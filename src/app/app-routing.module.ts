@@ -5,6 +5,8 @@ import { CategoryComponent } from './features/category/category.component';
 import { InputComponent } from './features/input/input.component';
 import { LeaderboardComponent } from './features/leaderboard/leaderboard.component';
 import { RulesComponent } from './features/rules/rules.component';
+import { TeamComponent } from './features/team/team.component';
+import { UserComponent } from './features/user/user.component';
 import { WelcomeComponent } from './features/welcome/welcome.component';
 
 const routes: Routes = [
@@ -13,6 +15,8 @@ const routes: Routes = [
   { path: 'category', title:'Cateegory Page', component: CategoryComponent },
   { path: 'input', title:'User Entry Page', component: InputComponent },
   { path: 'rules', title:'Rules Page', component: RulesComponent },
+  { path: 'team/:id', title:'Team Page', component: TeamComponent },
+  { path: 'user/:id', title:'User Page', component: UserComponent },
   { path: '',   redirectTo: '/welcome', pathMatch: 'full' }, // redirect to `first-component`
   { path: '**', title:'404 Page Not Found', component: PageNotFoundComponent }
 ];

@@ -7,6 +7,7 @@ import { TeamService } from '../team/services/team.service';
   styleUrls: ['./welcome.component.scss']
 })
 export class WelcomeComponent implements OnInit {
+  pageTitle:string = 'Welcome To Endevor Challenge';
   teams: ITeam[] = [];
   errorMessage: string = '';
 

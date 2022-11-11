@@ -4,6 +4,7 @@ import { TableComponent } from './components/table/table.component';
 import { CardComponent } from './components/card/card.component';
 import { FormsModule } from '@angular/forms';
 import { StarComponent } from './components/star/star.component';
+import { AppRoutingModule } from '../app-routing.module';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import { StarComponent } from './components/star/star.component';
     StarComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    AppRoutingModule
   ],
   exports:[
     TableComponent,
