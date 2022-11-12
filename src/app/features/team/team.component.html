@@ -1,1 +1,6 @@
-<p>team works!</p>
+<div id="bkg-image" [style.background-image]="'url('+team.image+')'"></div>
+<button type="button" class="btn btn-secondary btn-sm" (click)="onBack()">Back</button>
+<section>
+    <h1>{{team.name}}</h1>
+    <p>{{team.bio}}</p>
+</section>
